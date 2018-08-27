@@ -81,7 +81,7 @@ body {
 
 #about-me p {
   max-width: 700px;
-  text-align: justify;
+  text-align: center;
   margin: 2em auto 2em auto;
   padding: 2em 3em;
   font-family: Raleway, sans-serif;
