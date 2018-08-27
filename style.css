@@ -59,7 +59,8 @@
   padding: 2em 0 1em;
   font-weight: bold;
   font-style: italic;
-  text-shadow: 2px 2px silver;
+  color: #e5f1ff;
+  text-shadow: 2px 2px black;
 }
 
 .profile-pic {
