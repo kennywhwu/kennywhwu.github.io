@@ -23,7 +23,7 @@
 
 #about-me h1 {
   padding: 1em;
-  font-family: Oxygen;
+  --font-family: Oxygen;
   font-weight: bold;
   font-style: italic;
   text-shadow: 2px 2px silver;
@@ -38,7 +38,10 @@ box-shadow: 10px 10px 68px -15px rgba(0,0,0,0.75);
 }
 
 #about-me p {
-  margin: 2em 2em 0 2em;
+
+  max-width: 700px;
+  text-align: justify;
+  margin: 2em auto 2em auto;
   padding: 2em 3em;
   font-family: Raleway, sans-serif;
   background: #e5f1ff;
@@ -58,11 +61,8 @@ box-shadow: 10px 10px 68px -15px rgba(0,0,0,0.75);
   margin: 20px;
   padding-bottom: 20px;
   font-family: Oxygen, sans-serif;
+  font-weight: bold;
   text-shadow: 3px 3px #ffe8fe;
-}
-
-.contact-row {
-  margin: 10px;
 }
 
 .contact-link {
@@ -71,5 +71,9 @@ box-shadow: 10px 10px 68px -15px rgba(0,0,0,0.75);
   border: 3px solid #ffe8fe;
   background: #ffddbc;
   text-shadow: 3px 3px #ffe8fe;
-  
+  color: black;
+}
+
+#contact hr {
+  margin-top: 200px;
 }
